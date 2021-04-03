@@ -1,0 +1,19 @@
+{
+  "name": "ryantheghost/nord-web-themes",
+  "description": "An inspired web port of Nord, a rather stylish and clean theme. Supports many websites such as Discord, Reddit, YouTube, And many more to come.",
+  "authors": [
+    {
+      "name": "Ryan The Ghost",
+      "homepage": "https://github.com/Ryan-da-ghost/",
+      "role": "Founder"
+    },
+    {
+      "name": "Quite A Fancy Emerald",
+      "homepage": "https://github.com/QuiteAFancyEmerald",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "website": "https://github.com/QuiteAFancyEmerald"
+  }
+}

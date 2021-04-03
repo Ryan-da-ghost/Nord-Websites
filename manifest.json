@@ -1,21 +1,21 @@
 {
   "manifest_version": 2,
-  "name": "Nord Theme",
-  "version": "1.1",
-  "author": "@Ryan-da-Ghost & @QuiteAFancyEmerald",
+  "name": "Nord Web Themes",
+  "version": "1.0.0",
+  "description": "An inspired web port of Nord, a rather stylish and clean theme. Supports many websites such as Discord, Reddit, YouTube , And many more to come.",
+  "author": "Ryan-da-Ghost, QuiteAFancyEmerald",
   "permissions": ["activeTab", "tabs"],
-  "browser_action": {
-      "default_icon": "logo.png"
-  },
+  "homepage_url": "https://github.com/Ryan-da-ghost/Nord-Websites",
   "icons": {
-       "120": "logo.png"
+    "120": "assets/img/logo.png"
   },
-      "browser_action": {
-        "default_icon": "logo.png",
-        "default_title": "Nord Website Settings",
-        "default_popup": "popup.html"
-    },
-  "content_scripts": [{
+  "browser_action": {
+    "default_icon": "assets/img/logo.png",
+    "default_title": "Nord Website Settings",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
       "matches": [
         "*://discord.com/*",
         "*://www.youtube.com/*",
@@ -24,13 +24,13 @@
         "*://www.reddit.com/*"
       ],
       "js": ["javascript/urlCheck.js"]
-    }],
+    }
+  ],
   "web_accessible_resources": [
-    "css/discord.css",
-    "css/youtube.css",
-    "css/deviantart.css",
-    "css/monkeytype.css",
-    "css/reddit.css"
+    "assets/css/discord.css",
+    "assets/css/youtube.css",
+    "assets/css/deviantart.css",
+    "assets/css/monkeytype.css",
+    "assets/css/reddit.css"
   ]
-  
 }
