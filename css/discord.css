@@ -76,7 +76,7 @@ body {
   color: var(--secondarytext);
 }
 
-.lookFilled-1Gx00P.colorBrand-3pXr91,
+/* .lookFilled-1Gx00P.colorBrand-3pXr91, https://github.com/Ryan-da-ghost/Nord-Web-Themes/issues/10 */
 .lookInverted-2D7oAl.colorBrand-3pXr91,
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
   background-color: var(--secondarytext) !important;
