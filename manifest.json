@@ -7,10 +7,10 @@
   "permissions": ["activeTab", "tabs"],
   "homepage_url": "https://github.com/Ryan-da-ghost/Nord-Websites",
   "icons": {
-    "120": "assets/img/logo.png"
+    "120": "logo.png"
   },
   "browser_action": {
-    "default_icon": "assets/img/logo.png",
+    "default_icon": "logo.png",
     "default_title": "Nord Website Settings",
     "default_popup": "popup.html"
   },
@@ -19,18 +19,14 @@
       "matches": [
         "*://discord.com/*",
         "*://www.youtube.com/*",
-        "*://www.deviantart.com/*",
-        "*://monkeytype.com/*",
-        "*://www.reddit.com/*"
+        "*://github.com/*"
       ],
       "js": ["javascript/urlCheck.js"]
     }
   ],
   "web_accessible_resources": [
-    "assets/css/discord.css",
-    "assets/css/youtube.css",
-    "assets/css/deviantart.css",
-    "assets/css/monkeytype.css",
-    "assets/css/reddit.css"
+    "css/discord.css",
+    "css/youtube.css",
+    "css/github.css"
   ]
 }
